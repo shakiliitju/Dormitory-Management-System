@@ -106,7 +106,7 @@
 								<p>Mir Mosharraf Hossain Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=A"><img src="web_home/images/s1.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=A"><img src="web_home/images/h1.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -118,7 +118,7 @@
 								<p>Shaheed Salam-Barkat Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=B"><img src="web_home/images/s2.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=B"><img src="web_home/images/h2.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -131,7 +131,7 @@
 								<p>Bangabandhu Sheikh Mujibur Rahman Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=C"><img src="web_home/images/s3.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=C"><img src="web_home/images/h3.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -143,7 +143,7 @@
 								<p>Al Beruni Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=D"><img src="web_home/images/s4.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=D"><img src="web_home/images/h4.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -172,7 +172,7 @@
 								<p>Shaheed Rafiq-Jabbar Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=A"><img src="web_home/images/s1.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=A"><img src="web_home/images/h5.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -184,7 +184,7 @@
 								<p>A F M Kamaluddin Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=B"><img src="web_home/images/s2.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=B"><img src="web_home/images/h6.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -197,7 +197,7 @@
 								<p>Mowlana Bhashani Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=C"><img src="web_home/images/s3.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=C"><img src="web_home/images/h7.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -209,7 +209,7 @@
 								<p>Bishwakabi Rabindranath Tagore Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=D"><img src="web_home/images/s4.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=D"><img src="web_home/images/h8.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -238,7 +238,7 @@
 								<p>Jahanara Imam Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=A"><img src="web_home/images/s1.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=A"><img src="web_home/images/h9.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -250,7 +250,7 @@
 								<p>Nawab Faizunnesa Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=B"><img src="web_home/images/s2.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=B"><img src="web_home/images/h10.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -263,7 +263,7 @@
 								<p>Pritilata Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=C"><img src="web_home/images/s3.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=C"><img src="web_home/images/h11.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -275,7 +275,7 @@
 								<p>Fazilatunnesa Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=D"><img src="web_home/images/s4.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=D"><img src="web_home/images/h12.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -304,7 +304,7 @@
 								<p>Begum Khaleda Zia Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=A"><img src="web_home/images/s1.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=A"><img src="web_home/images/h13.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -316,7 +316,7 @@
 								<p>Sheikh Hasina Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=B"><img src="web_home/images/s2.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=B"><img src="web_home/images/h14.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -329,7 +329,7 @@
 								<p>Bangamata Begum Fazilatunnessa Mujib Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=C"><img src="web_home/images/s3.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=C"><img src="web_home/images/h15.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -341,7 +341,7 @@
 								<p>Begum Sufia Kamal Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=D"><img src="web_home/images/s4.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=D"><img src="web_home/images/h16.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>

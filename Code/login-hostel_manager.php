@@ -2,13 +2,11 @@
 <html lang="en">
 
 <head>
-    <title>HMS</title>
+    <title>DMS</title>
     <!-- meta tags -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Art Sign Up Form Responsive Widget, Audio and Video players, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates,
-		Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design"
-    />
+    <meta name="keywords">
     <!-- /meta tags -->
     <!-- custom style sheet -->
     <link href="web/css/style.css" rel="stylesheet" type="text/css" />

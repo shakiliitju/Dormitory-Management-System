@@ -128,7 +128,7 @@
 				</ul>
 			</div>
 			<div class="agileits_w3layouts-copyright mt-4 text-center">
-				<p>© 2018 Intrend. All Rights Reserved | Design by <a href="http://w3layouts.com/" target="=_blank"> W3layouts </a></p>
+			<p class="copyright-agileinfo"> &copy; 2023 Dormitory Management System Project. All Rights Reserved | Design by Group-8</a></p>
 		</div>
 		</div>
 	</div>

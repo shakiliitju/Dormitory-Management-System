@@ -60,7 +60,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container agile-banner_nav">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-				<h1><a class="navbar-brand" href="home.php">NITC <span class="display"></span></a></h1>
+				<h1><a class="navbar-brand" href="home.php">DMS</a></h1>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 				</button>
@@ -72,7 +72,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link" href="services.php">Hostels</a>
+							<a class="nav-link" href="services.php">Hall</a>
 						</li>
 
 
@@ -107,7 +107,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<a href="#"><i class="fa fa-list-ul" aria-hidden="true"></i><span>Info</span></a>
 				</li>
 				<li>
-					<a href="#"><i class="fa fa-folder" aria-hidden="true"></i><span>Hostel</span></a>
+					<a href="#"><i class="fa fa-folder" aria-hidden="true"></i><span>Hall</span></a>
 				</li>
 				<li>
 					<a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span>Contact</span></a>
@@ -157,7 +157,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 				</fieldset>
 				<fieldset class="step agileinfo w3ls_fancy_step">
-					<legend>Hostel Info</legend>
+					<legend>Hall Info</legend>
 					<div class="abt-agile">
 						<div class="abt-agile-left-hostel">
 						</div>
@@ -168,7 +168,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<ul class="address">
 								<li>
 									<ul class="address-text">
-										<li><b>HOSTEL </b></li>
+										<li><b>HALL </b></li>
 										<?php
 											$hostelId = $_SESSION['hostel_id'];
 											if($hostelId == NULL){
@@ -274,7 +274,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</fieldset>-->
 					<fieldset class="step agileinfo w3ls_fancy_step">
-						<legend>Hostel Manager Info</legend>
+						<legend>Hall Staff Info</legend>
 						<div class="abt-agile">
 							<div class="abt-agile-left">
 							</div>

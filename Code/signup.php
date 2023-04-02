@@ -6,9 +6,7 @@
     <!-- meta tags -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Art Sign Up Form Responsive Widget, Audio and Video players, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates,
-		Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design"
-    />
+    <meta name="keywords">
     <!-- /meta tags -->
     <!-- custom style sheet -->
     <link href="web/css/style.css" rel="stylesheet" type="text/css" />
@@ -25,7 +23,7 @@
 
 
 <body>
-    <h1>Hostel Room Allocation System</h1>
+    <h1>Dormitory Management System</h1>
     <div class=" w3l-login-form">
         <h2>Sign Up Here</h2>
         <form action="includes/signup.inc.php" method="POST">

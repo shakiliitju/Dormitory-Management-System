@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title> Intrend Interior Category Flat Bootstrap Responsive Website Template | About : W3layouts</title>
+<title>DMS</title>
 	
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,7 +41,7 @@
 		<div class="container agile-banner_nav">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				
-				<h1><a class="navbar-brand" href="index.html">In <span class="display"> Trend</span></a></h1>
+				<h1><a class="navbar-brand" href="index.html">STAFF-DMS</a></h1>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 				</button>
@@ -256,7 +256,7 @@
 				</ul>
 			</div>
 			<div class="agileits_w3layouts-copyright mt-4 text-center">
-				<p>© 2018 Intrend. All Rights Reserved | Design by <a href="http://w3layouts.com/" target="=_blank"> W3layouts </a></p>
+			<p class="copyright-agileinfo"> &copy; 2023 Dormitory Management System Project. All Rights Reserved | Design by Group-8</a></p>
 		</div>
 		</div>
 	</div>

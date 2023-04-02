@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Consultancy Profile Widget Flat Responsive Widget Template :: w3layouts</title>
+<title>DMS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Consultancy Profile Widget Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -74,7 +74,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<li>
 										<ul class="address-text">
 											<li><b>WEBSITE </b></li>
-											<li><a href="http://w3layouts.com">: www.myresume.com</a></li>
+											<li><a href="">: www.myresume.com</a></li>
 										</ul>
 									</li>
 								</ul>
@@ -165,7 +165,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 		<div class="agileits_copyright">
-			<p>© 2017 Consultancy Profile Widget. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+		<p class="copyright-agileinfo"> &copy; 2023 Dormitory Management System Project. All Rights Reserved | Design by Group-8</a></p>
 		</div>
 	</div>
 	<script type="text/javascript" src="js/smoothbox.jquery2.js"></script>

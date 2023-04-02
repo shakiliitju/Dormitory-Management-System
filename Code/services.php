@@ -7,13 +7,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title> Intrend Interior Category Flat Bootstrap Responsive Website Template | Services : W3layouts</title>
+<title>DMS</title>
 	
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
-	<meta name="keywords" content="Intrend Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<meta name="keywords">
 	<script type="application/x-javascript">
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -47,7 +46,7 @@
 		<div class="container agile-banner_nav">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				
-				<h1><a class="navbar-brand" href="home.php">NITC<span class="display"></span></a></h1>
+				<h1><a class="navbar-brand" href="home.php">DMS</a></h1>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 				</button>
@@ -59,7 +58,7 @@
 						</li>
 						
 						<li class="nav-item active">
-							<a class="nav-link" href="services.php">Hostels</a>
+							<a class="nav-link" href="services.php">Hall</a>
 						</li>
 						
 						
@@ -92,81 +91,7 @@
 </div>
 <!-- //banner --> 
 
-<!-- services -->
-<section class="services py-5">
-	<div class="container py-lg-5 py-3">
-		<h2 class="heading text-capitalize mb-sm-5 mb-4"> Hostels </h2>
-		<div class="row service-grids">
-			<div class="col-lg-4 col-md-6 service-grid1">
-				<a href="application_form.php"><h3>A Hostel</h3></a>
-				<div class="row">
-					<div class="col-md-3 col-2">
-						<h4>1 yr</h4>
-					</div>
-					<div class="col-md-9 col-10">
-						<p>A Hostel</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 mt-md-0 mt-5 service-grid1">
-				<h3>B Hostel</h3>
-				<div class="row">
-					<div class="col-md-3 col-2">
-						<h4>3 yr</h4>
-					</div>
-					<div class="col-md-9 col-10">
-						<p>B Hostel</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 mt-lg-0 mt-5 service-grid1">
-				<h3>C Hostel</h3>
-				<div class="row">
-					<div class="col-md-3 col-2">
-						<h4>2 yr</h4>
-					</div>
-					<div class="col-md-9 col-10">
-						<p>C Hostel</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 mt-5 service-grid1">
-				<h3>D Hostel</h3>
-				<div class="row">
-					<div class="col-md-3 col-2">
-						<h4>4 yr</h4>
-					</div>
-					<div class="col-md-9 col-10">
-						<p>D Hostel</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 mt-5 service-grid1">
-				<h3>E Hostel</h3>
-				<div class="row">
-					<div class="col-md-3 col-2">
-						<h4>4 yr</h4>
-					</div>
-					<div class="col-md-9 col-10">
-						<p>E Hostel</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 mt-5 service-grid1">
-				<h3>F Hostel</h3>
-				<div class="row">
-					<div class="col-md-3 col-2">
-						<h4>4 yr</h4>
-					</div>
-					<div class="col-md-9 col-10">
-						<p>F Hostel</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- services -->
+
 
 <!-- banner-bottom -->
 	<div class="banner-bottom">
@@ -177,8 +102,8 @@
 						<div class="view view-tenth">
 							<div class="agile_text_box">
 								<i class="fas fa-bed" aria-hidden="true"></i>
-								<h3> Apply for A-Hostel</h3>
-								<p>A Hostel</p>
+								<h3> Apply for MH</h3>
+								<p>Mir Mosharraf Hossain Hall</p>
 							</div>
 							<div class="mask">
 								<a href="application_form.php?id=A"><img src="web_home/images/s1.jpg" class="img-responsive" alt="" /></a>
@@ -189,8 +114,8 @@
 						<div class="view view1 view-tenth">
 							<div class="agile_text_box">
 								<i class="fas fa-bed" aria-hidden="true"></i>
-								<h3>Apply for B-Hostel</h3>
-								<p>B Hostel</p>
+								<h3>Apply for SSB</h3>
+								<p>Shaheed Salam-Barkat Hall</p>
 							</div>
 							<div class="mask">
 								<a href="application_form.php?id=B"><img src="web_home/images/s2.jpg" class="img-responsive" alt="" /></a>
@@ -202,8 +127,8 @@
 						<div class="view view2 view-tenth">
 							<div class="agile_text_box">
 								<i class="fas fa-bed" aria-hidden="true"></i>
-								<h3>Apply for C-Hostel</h3>
-								<p>C Hostel</p>
+								<h3>Apply for BBH</h3>
+								<p>Bangabandhu Sheikh Mujibur Rahman Hall</p>
 							</div>
 							<div class="mask">
 								<a href="application_form.php?id=C"><img src="web_home/images/s3.jpg" class="img-responsive" alt="" /></a>
@@ -214,8 +139,8 @@
 						<div class="view view3 view-tenth">
 							<div class="agile_text_box">
 								<i class="fas fa-bed" aria-hidden="true"></i>
-								<h3>Apply for D-Hostel</h3>
-								<p>D Hostel</p>
+								<h3>Apply for ABH</h3>
+								<p>Al Beruni Hall</p>
 							</div>
 							<div class="mask">
 								<a href="application_form.php?id=D"><img src="web_home/images/s4.jpg" class="img-responsive" alt="" /></a>
@@ -228,36 +153,38 @@
 		</div>
 	</div>
 </div>
+<br>
+<br>
 <!-- banner-bottom -->
 
-<br>
-<br>
 
+
+<!-- banner-bottom -->
 <div class="banner-bottom">
 		<div class="container-fluid">
 			<div class="banner_bottom_agile_grids">
 				<div class="row wthree_banner_bottom_right_grids pr-sm-3">
-					<!--<div class="col-lg-3 col-sm-6 banner_bottom_right_grid">
+					<div class="col-lg-3 col-sm-6 banner_bottom_right_grid">
 						<div class="view view-tenth">
 							<div class="agile_text_box">
-								<i class="fas fa-bath" aria-hidden="true"></i>
-								<h3> Apply for D-Hostel</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adip. Sed semper sem non commodo egestas. In rutrum enim a neque volutpat aliquet</p>
+								<i class="fas fa-bed" aria-hidden="true"></i>
+								<h3> Apply for SRJ</h3>
+								<p>Shaheed Rafiq-Jabbar Hall</p>
 							</div>
 							<div class="mask">
-								<img src="web_home/images/s1.jpg" class="img-responsive" alt="" />
+								<a href="application_form.php?id=A"><img src="web_home/images/s1.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
-					</div>-->
+					</div>
 					<div class="col-lg-3 col-sm-6 mt-sm-0 mt-3 banner_bottom_right_grid">
 						<div class="view view1 view-tenth">
 							<div class="agile_text_box">
 								<i class="fas fa-bed" aria-hidden="true"></i>
-								<h3> Apply for E-Hostel</h3>
-								<p>E Hostel</p>
+								<h3>Apply for KH</h3>
+								<p>A F M Kamaluddin Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=E"><img src="web_home/images/s2.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=B"><img src="web_home/images/s2.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
@@ -266,32 +193,168 @@
 						<div class="view view2 view-tenth">
 							<div class="agile_text_box">
 								<i class="fas fa-bed" aria-hidden="true"></i>
-								<h3>Apply for F-Hostel </h3>
-								<p>F Hostel</p>
+								<h3>Apply for MBH</h3>
+								<p>Mowlana Bhashani Hall</p>
 							</div>
 							<div class="mask">
-								<a href="application_form.php?id=F"><img src="web_home/images/s3.jpg" class="img-responsive" alt="" /></a>
+								<a href="application_form.php?id=C"><img src="web_home/images/s3.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
 					</div>
-					<!--<div class="col-lg-3 col-sm-6 mt-lg-0 mt-3 banner_bottom_right_grid">
+					<div class="col-lg-3 col-sm-6 mt-lg-0 mt-3 banner_bottom_right_grid">
 						<div class="view view3 view-tenth">
 							<div class="agile_text_box">
 								<i class="fas fa-bed" aria-hidden="true"></i>
-								<h3>Office Chairs</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adip. Sed semper sem non commodo egestas. In rutrum enim a neque volutpat aliquet</p>
+								<h3>Apply for RTH</h3>
+								<p>Bishwakabi Rabindranath Tagore Hall</p>
 							</div>
 							<div class="mask">
-								<img src="web_home/images/s4.jpg" class="img-responsive" alt="" />
+								<a href="application_form.php?id=D"><img src="web_home/images/s4.jpg" class="img-responsive" alt="" /></a>
 							</div>
 						</div>
-					</div>-->
+					</div>
 					<div class="clearfix"> </div>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 	</div>
 </div>
+<br>
+<br>
+<!-- banner-bottom -->
+
+
+
+<!-- banner-bottom -->
+<div class="banner-bottom">
+		<div class="container-fluid">
+			<div class="banner_bottom_agile_grids">
+				<div class="row wthree_banner_bottom_right_grids pr-sm-3">
+					<div class="col-lg-3 col-sm-6 banner_bottom_right_grid">
+						<div class="view view-tenth">
+							<div class="agile_text_box">
+								<i class="fas fa-bed" aria-hidden="true"></i>
+								<h3> Apply for JIH</h3>
+								<p>Jahanara Imam Hall</p>
+							</div>
+							<div class="mask">
+								<a href="application_form.php?id=A"><img src="web_home/images/s1.jpg" class="img-responsive" alt="" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 mt-sm-0 mt-3 banner_bottom_right_grid">
+						<div class="view view1 view-tenth">
+							<div class="agile_text_box">
+								<i class="fas fa-bed" aria-hidden="true"></i>
+								<h3>Apply for NFH</h3>
+								<p>Nawab Faizunnesa Hall</p>
+							</div>
+							<div class="mask">
+								<a href="application_form.php?id=B"><img src="web_home/images/s2.jpg" class="img-responsive" alt="" /></a>
+							</div>
+						</div>
+					</div>
+				
+					<div class="col-lg-3 col-sm-6 mt-lg-0 mt-3 banner_bottom_right_grid">
+						<div class="view view2 view-tenth">
+							<div class="agile_text_box">
+								<i class="fas fa-bed" aria-hidden="true"></i>
+								<h3>Apply for PH</h3>
+								<p>Pritilata Hall</p>
+							</div>
+							<div class="mask">
+								<a href="application_form.php?id=C"><img src="web_home/images/s3.jpg" class="img-responsive" alt="" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 mt-lg-0 mt-3 banner_bottom_right_grid">
+						<div class="view view3 view-tenth">
+							<div class="agile_text_box">
+								<i class="fas fa-bed" aria-hidden="true"></i>
+								<h3>Apply for FH</h3>
+								<p>Fazilatunnesa Hall</p>
+							</div>
+							<div class="mask">
+								<a href="application_form.php?id=D"><img src="web_home/images/s4.jpg" class="img-responsive" alt="" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<br>
+<br>
+<!-- banner-bottom -->
+
+
+
+<!-- banner-bottom -->
+<div class="banner-bottom">
+		<div class="container-fluid">
+			<div class="banner_bottom_agile_grids">
+				<div class="row wthree_banner_bottom_right_grids pr-sm-3">
+					<div class="col-lg-3 col-sm-6 banner_bottom_right_grid">
+						<div class="view view-tenth">
+							<div class="agile_text_box">
+								<i class="fas fa-bed" aria-hidden="true"></i>
+								<h3>Apply for BKH</h3>
+								<p>Begum Khaleda Zia Hall</p>
+							</div>
+							<div class="mask">
+								<a href="application_form.php?id=A"><img src="web_home/images/s1.jpg" class="img-responsive" alt="" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 mt-sm-0 mt-3 banner_bottom_right_grid">
+						<div class="view view1 view-tenth">
+							<div class="agile_text_box">
+								<i class="fas fa-bed" aria-hidden="true"></i>
+								<h3>Apply for SHH</h3>
+								<p>Sheikh Hasina Hall</p>
+							</div>
+							<div class="mask">
+								<a href="application_form.php?id=B"><img src="web_home/images/s2.jpg" class="img-responsive" alt="" /></a>
+							</div>
+						</div>
+					</div>
+				
+					<div class="col-lg-3 col-sm-6 mt-lg-0 mt-3 banner_bottom_right_grid">
+						<div class="view view2 view-tenth">
+							<div class="agile_text_box">
+								<i class="fas fa-bed" aria-hidden="true"></i>
+								<h3>Apply for BFH</h3>
+								<p>Bangamata Begum Fazilatunnessa Mujib Hall</p>
+							</div>
+							<div class="mask">
+								<a href="application_form.php?id=C"><img src="web_home/images/s3.jpg" class="img-responsive" alt="" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 mt-lg-0 mt-3 banner_bottom_right_grid">
+						<div class="view view3 view-tenth">
+							<div class="agile_text_box">
+								<i class="fas fa-bed" aria-hidden="true"></i>
+								<h3>Apply for SKH</h3>
+								<p>Begum Sufia Kamal Hall</p>
+							</div>
+							<div class="mask">
+								<a href="application_form.php?id=D"><img src="web_home/images/s4.jpg" class="img-responsive" alt="" /></a>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<br>
+<br>
+<!-- banner-bottom -->
+
 
 <!-- team -->
 
@@ -301,7 +364,7 @@
 <footer class="py-5">
 	<div class="container py-md-5">
 		<div class="footer-logo mb-5 text-center">
-			<a class="navbar-brand" href="http://www.nitc.ac.in/" target="_blank">NIT <span class="display"> CALICUT</span></a>
+			<a class="navbar-brand" href="#" target="_blank">IIT-JU</a>
 		</div>
 		<div class="footer-grid">
 			
@@ -312,7 +375,7 @@
 					</li>
 					
 					<li>
-						<a href="services.php">Hostels</a>
+						<a href="services.php">Hall</a>
 					</li>
 					<li>
 						<a href="contact.php">Contact</a>

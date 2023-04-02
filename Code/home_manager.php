@@ -138,7 +138,7 @@
 									<circle id="cd-circle-2" cx="1290" cy="400" r="60"/>
 								</clipPath>
 							</defs>
-							<image height='800px' width="1400px" clip-path="url(#cd-image-2)" xlink:href="web_home/images/2.png"></image>
+							<image height='800px' width="1400px" clip-path="url(#cd-image-2)" xlink:href="web_home/images/2.jpg"></image>
 						</svg>
 					</div> <!-- .svg-wrapper -->
 					<div class="cd-radial-slider-content text-center">
@@ -161,13 +161,13 @@
 									<circle id="cd-circle-3" cx="110" cy="400" r="60"/>
 								</clipPath>
 							</defs>
-							<image height='800px' width="1400px" clip-path="url(#cd-image-3)" xlink:href="web_home/images/3.png"></image>
+							<image height='800px' width="1400px" clip-path="url(#cd-image-3)" xlink:href="web_home/images/3.jpg"></image>
 						</svg>
 					</div> <!-- .svg-wrapper -->
 					<div class="cd-radial-slider-content text-center">
 						<div class="wrapper">
 							<div class="text-center">
-								<h3>Hostels </h3>
+								<h3>Hall</h3>
 								
 								
 							</div>

@@ -9,7 +9,7 @@
       <div class="row col-md-6 col-md-offset-3">
         <div class="panel panel-primary">
           <div class="panel-heading text-center">
-            <h1>Student Info</h1>
+            <h1>Room Info</h1>
           </div>
           <div class="panel-body">
             <form action="Room.php" method="post">
@@ -20,6 +20,7 @@
                   class="form-control"
                   id="Room_Number"
                   name="Room_Number"
+                  required
                 />
               </div>
               <div class="form-group">
@@ -29,6 +30,7 @@
                   class="form-control"
                   id="Num_of_Table"
                   name="Num_of_Table"
+                  required
                 />
               </div>
               <div class="form-group">
@@ -38,6 +40,7 @@
                   class="form-control"
                   id="Num_of_Bed"
                   name="Num_of_Bed"
+                  required
                 />
               </div>
               <div class="form-group">
@@ -47,13 +50,14 @@
                   class="form-control"
                   id="Floor_Number"
                   name="Floor_Number"
+                  required
                 />
               </div>
               <input type="submit" class="btn btn-primary" value="SUBMIT" />
-              <button><a href="Room.php" class="btn btn-primary"><b>Back</b></a></button>
             </form>
           </div>
           <div class="panel-footer text-right">
+            <button><a href="DispRoom.php" class="btn btn-primary"><b>Back</b></a></button>
             <small>&copy; Dormitory Management System</small>
           </div>
         </div>

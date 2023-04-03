@@ -90,15 +90,15 @@
 <body>
 
     <header class="header">
-        <img src="images/ju_logo.png" alt style="height: 70px; width: 65px; margin-left:10px">
+        <img src="images/ju_logo.png" alt style="height: 70px; width: 65px">
         <a href="#" class="logo" style="text-decoration: none;">DORMITORY MANAGEMENT SYSTEM</a>
         <nav class="navbar">
-            <a href="#about" style=" text-decoration:none; ">about</a>
-            <a href="#provost" style=" text-decoration:none; ">Provost</a>
+            <a href="#about" style=" text-decoration:none; ">About</a>
+            <a href="#provost" style=" text-decoration:none; ">Notice</a>
             <a href="Student/signup.html" style=" text-decoration:none; ">Student</a>
             <a href="#Gallery" style=" text-decoration:none; ">Gallery</a>
             <a href="#contact" style=" text-decoration:none; ">contact</a>
-            <button id="admin" style="    margin-left: 7px;height: 40px;width: 80px"><a href="login.php" style=" text-decoration:none; text-align:centre" id="link1">admin</a></button>
+            <button id="admin" style="    margin-left: 7px;height: 40px;width: 80px"><a href="login.php" style=" text-decoration:none; text-align:centre" id="link1">Login</a></button>
         </nav>
 
         </nav>
@@ -168,7 +168,7 @@
                 <div class="carousel-caption d-none d-md-block">
                     <!--   <h2 class="display-1 text-danger">This is my first slider</h2> -->
                 </div>
-                <img src="images/slider1.jpg" height="600px" width="100%" alt="">
+                <img src="images/1.png" height="600px" width="100%" alt="">
             </div>
             <!-- 2nd slider -->
             <div class="carousel-item">
@@ -252,23 +252,11 @@
             <div class="box">
                 <h3 align="left" style="padding: 5px 10px 5px 70px;">
                     Dear University Hall Residents,<br>
-                    As we approach the Victory Day of Bangladesh, we would like to invite you all to join us for a
-                    <br> special feast to commemorate this historic occasion. The feast will be held on December
-                    <br> 16th at the dining hall, starting at 7:00 PM.
-                    <br><br> In order to participate in the feast, you will need to purchase a coupon for 30 taka from the
-                    <br> hall office. This coupon will entitle you to a plate of delicious Bangladeshi food, including biryani,
-                    <br> kebab, and sweets.
-
-                    <br><br>Please note that coupons will be available for purchase starting from December 10th and
-                    <br> will be sold on a first-come, first-served basis. We encourage you to get your coupons early
-                    <br> to avoid disappointment.
-
-                    <br><br>If you have any questions or concerns, please do not hesitate to contact the hall office.
-
-                    <br><br>We look forward to celebrating Victory Day with you all!
-
+                    As we approach the Victory Day of Bangladesh, we would like to invite you all to join us for a special feast to commemorate this historic occasion. The feast will be held on December 16th at the dining hall, starting at 7:00 PM.
+                    <br><br> In order to participate in the feast, you will need to purchase a coupon for 30 taka from the hall office. This coupon will entitle you to a plate of delicious Bangladeshi food, including biryani, kebab, and sweets.
+                    <br><br>Please note that coupons will be available for purchase starting from December 10th and will be sold on a first-come, first-served basis. We encourage you to get your coupons early to avoid disappointment.
+                    <br><br>If you have any questions or concerns, please do not hesitate to contact the hall office. We look forward to celebrating Victory Day with you all!
                     <br><br>Best regards,
-
                     <br><br> University Hall Office Staff
                 </h3>
                 <!-- <img src="images/provost.jpg" alt="">

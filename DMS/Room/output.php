@@ -6,7 +6,7 @@
     
     <style>
       body{
-        background-image: url(../images/img2.jpg);
+        background-image: url(../images/sea.jpg);
         background-size: cover;
         background-repeat: no-repeat;
       }

@@ -97,6 +97,7 @@
             <a href="#provost" style=" text-decoration:none; ">Notice</a>
             <a href="Student/signup.html" style=" text-decoration:none; ">Student</a>
             <a href="#Gallery" style=" text-decoration:none; ">Gallery</a>
+            <a href="#Gallery" style=" text-decoration:none; ">Dining</a>
             <a href="#contact" style=" text-decoration:none; ">contact</a>
             <button id="admin" style="    margin-left: 7px;height: 40px;width: 80px"><a href="login.php" style=" text-decoration:none; text-align:centre" id="link1">Login</a></button>
         </nav>

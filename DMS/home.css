@@ -128,6 +128,44 @@ color: black;
     cursor: pointer;
     display: none;
 }
+
+
+
+.hall .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap:2rem;
+}
+
+.hall .box-container .box{
+  text-align: center;
+  background:#fff;
+  border-radius: .5rem;
+  border:var(--border);
+  box-shadow: var(--box-shadow);
+  padding:2rem;
+}
+
+.hall .box-container .box img{
+  height: 20rem;
+  border:var(--border);
+  border-radius: .5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hall .box-container .box h3{
+  color:var(--black);
+  font-size: 2rem;
+}
+
+.hall .box-container .box span{
+  color:var(--green);
+  font-size: 1.5rem;
+}
+
+
+
 #provost{
     margin-top: 0px;
     margin-bottom: 0px;

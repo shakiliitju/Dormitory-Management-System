@@ -58,33 +58,31 @@
    <table align="center" class="table1" border="3px solid black" style="width:1000px; line-height:40px;">
      <tr>
        <th colspan="8">
-         <h2>Faculty Record</h2>
+         <h2>Hall Record</h2>
        </th>
      </tr>
-     <th> Faculty ID </th>
-     <th>Phone </th>
-     <th> Name </th>
-     <th> Address </th>
-     <th> Email </th>
-     <th> Designation</th>
-     <th> Operations</th>
+     <th> Hall ID </th>
+     <th> Hall Name </th>
+     <th> Total Seat </th>
+     <th> Available Seat </th>
+     <th> Number of Student </th>
+     <th> Operations </th>
      </tr>
 
      <?php
       include 'connection.php';
-      $sql = "select * from Provost ";
+      $sql = "select * from hall ";
       $query = mysqli_query($conn, $sql);
       while ($row1 = mysqli_fetch_array($query)) {
       ?>
        <tr>
-         <td class="tdr"><?php echo $row1['P_ID']; ?></td>
-         <td class="tdr"><?php echo $row1['Phone']; ?></td>
-         <td class="tdr"><?php echo $row1['Name']; ?></td>
-         <td class="tdr"><?php echo $row1['Address']; ?></td>
-         <td class="tdr"><?php echo $row1['Email']; ?></td>
-         <td class="tdr"><?php echo $row1['Designation']; ?></td>
+         <td class="tdr"><?php echo $row1['H_ID']; ?></td>
+         <td class="tdr"><?php echo $row1['H_Name']; ?></td>
+         <td class="tdr"><?php echo $row1['T_Seat']; ?></td>
+         <td class="tdr"><?php echo $row1['A_Seat']; ?></td>
+         <td class="tdr"><?php echo $row1['N_Student']; ?></td>
          <td style="width: 140px;">
-           <center><button id="delete"><a href="Delete.php?P_ID=<?php echo $row1["P_ID"]; ?>" id="link1" style="text-align:center">Delete</a></button></center>
+           <center><button id="delete"><a href="Delete.php?H_ID=<?php echo $row1["H_ID"]; ?>" id="link1" style="text-align:center">Delete</a></button></center>
          </td>
        </tr>
      <?php
@@ -94,7 +92,7 @@
    </table>
 
    <center>
-     <button class="button"> <a href="provost.html" style="text-decoration: none;">INSERT</a> </button>
+     <button class="button"> <a href="Hall.html" style="text-decoration: none;">INSERT</a> </button>
      <button class="button"> <a href="../dashboard/home.php" style="text-decoration: none;">Home Page</a> </button>
    </center>
  </body>

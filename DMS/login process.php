@@ -32,6 +32,4 @@ $query=mysqli_query($con,"select * from login where username='$user' and passwor
 	  		
 	    echo "<script type='text/javascript'>document.location='dashboard/home.php'</script>";
 	  }
-}	 
-?>
-
+}

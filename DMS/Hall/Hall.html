@@ -12,7 +12,7 @@
             <h1>HALL INFO</h1>
           </div>
           <div class="panel-body">
-            <form action="Provost.php" method="post">
+            <form action="Hall.php" method="post">
               <div class="form-group">
                 <label for="H_ID">Hall ID*</label>
                 <input
@@ -24,56 +24,49 @@
                 />
               </div>
               <div class="form-group">
-                <label for="Phone">Phone</label>
+                <label for="H_Name">Hall Name*</label>
                 <input
                   type="text"
                   class="form-control"
-                  id="Phone"
-                  name="Phone"
+                  id="H_Name"
+                  name="H_Name"
                 />
               </div>
               <div class="form-group">
-                <label for="Name">Name</label>
+                <label for="T_Seat">Total Seat*</label>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
-                  id="Name"
-                  name="Name"
+                  id="T_Seat"
+                  name="T_Seat"
+                  required
                 />
               </div>
               <div class="form-group">
-                <label for="Address">Address</label>
+                <label for="A_Seat">Available Seat*</label>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
-                  id="Address"
-                  name="Address"
+                  id="A_Seat"
+                  name="A_Seat"
+                  required
                 />
               </div>
               <div class="form-group">
-                <label for="Email">Email</label>
+                <label for="N_Student">Nubmer of Student*</label>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
-                  id="Email"
-                  name="Email"
-                />
-              </div>
-              <div class="form-group">
-                <label for="Designation">designation</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="Designation"
-                  name="Designation"
+                  id="N_Student"
+                  name="N_Student"
+                  required
                 />
               </div>
               <input type="submit" class="btn btn-primary" value="SUBMIT" />
-              <!-- <button> <a href="DispProvost.php" class="btn btn-success"><b>Submit</b></a></button> -->
             </form>
           </div>
           <div class="panel-footer text-right">
-            <button><a href="Provost.php" class="btn btn-primary"><b>Back</b></a></button>
+            <button><a href="DispHall.php" class="btn btn-primary"><b>Back</b></a></button>
             <small>&copy; Dormitory Management System</small>
           </div>
         </div>

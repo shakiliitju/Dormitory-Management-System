@@ -60,6 +60,7 @@
 			  <th> Name </th> 
 			  <th> Department </th> 
 			  <th> Session </th> 
+        <th> Hall </th> 
         <th> Room Number </th> 
         <th> Floor Number </th>
         <th>Operations</th>
@@ -76,6 +77,7 @@
 		<td class="tdr"><?php echo $row1['Name']; ?></td> 
 		<td class="tdr"><?php echo $row1['Department']; ?></td> 
 		<td class="tdr"><?php echo $row1['Session']; ?></td> 
+    <td class="tdr"><?php echo $row1['hall']; ?></td> 
     <td class="tdr"><?php echo $row1['Room_Number']; ?></td>
     <td class="tdr"><?php echo $row1['Floor_Number']; ?></td>
     <td style="width: 140px;">

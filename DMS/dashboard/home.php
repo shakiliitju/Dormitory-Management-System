@@ -192,7 +192,7 @@
 
           <ul>
                <li>
-                    <a href="../Provost/DispProvost.php" style="text-decoration:none"><i class="fas fa-user-tie"></i> Faculty </a>
+                    <a href="../Provost/DispProvost.php" style="text-decoration:none"><i class="fas fa-user-tie"></i> Provost </a>
                </li>
                <li>
                     <a href="../Hall/DispHall.php" style="text-decoration:none"><i class="fas fa-building"></i> Hall </a>
@@ -255,11 +255,11 @@
 
                <a href="../Provost/DispProvost.php" rel="" style="text-decoration:none">
                     <div class="cardspecific" style="width: 26%;">
-                         Faculty
+                         Hall
                          <div class="number">
                               <?php
                               include 'connection.php';
-                              $sql = "select count(*) as total from provost";
+                              $sql = "select count(*) as total from hall";
                               $result = mysqli_query($conn, $sql);
                               $data = mysqli_fetch_assoc($result);
                               echo $data['total'];

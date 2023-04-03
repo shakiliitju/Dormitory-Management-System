@@ -98,7 +98,7 @@
 
   <center>
 
-    <button class="button"> <a href="home.php" style="text-decoration: none;">Home Page</a> </button>
+    <button class="button"> <a href="../index.php" style="text-decoration: none;">Home Page</a> </button>
   </center>
 </body>
 

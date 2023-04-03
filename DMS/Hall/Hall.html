@@ -9,17 +9,18 @@
       <div class="row col-md-6 col-md-offset-3">
         <div class="panel panel-primary">
           <div class="panel-heading text-center">
-            <h1>FACULTY INFO</h1>
+            <h1>HALL INFO</h1>
           </div>
           <div class="panel-body">
             <form action="Provost.php" method="post">
               <div class="form-group">
-                <label for="P_ID">Provost ID</label>
+                <label for="H_ID">Hall ID*</label>
                 <input
                   type="number"
                   class="form-control"
-                  id="P_ID"
-                  name="P_ID"
+                  id="H_ID"
+                  name="H_ID"
+                  required
                 />
               </div>
               <div class="form-group">
@@ -69,10 +70,10 @@
               </div>
               <input type="submit" class="btn btn-primary" value="SUBMIT" />
               <!-- <button> <a href="DispProvost.php" class="btn btn-success"><b>Submit</b></a></button> -->
-              <button><a href="Provost.php" class="btn btn-primary"><b>Back</b></a></button>
             </form>
           </div>
           <div class="panel-footer text-right">
+            <button><a href="Provost.php" class="btn btn-primary"><b>Back</b></a></button>
             <small>&copy; Dormitory Management System</small>
           </div>
         </div>

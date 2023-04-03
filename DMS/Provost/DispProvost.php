@@ -58,10 +58,10 @@
    <table align="center" class="table1" border="3px solid black" style="width:1000px; line-height:40px;">
      <tr>
        <th colspan="8">
-         <h2>Faculty Record</h2>
+         <h2>Provost Record</h2>
        </th>
      </tr>
-     <th> Faculty ID </th>
+     <th> Provost ID </th>
      <th>Phone </th>
      <th> Name </th>
      <th> Address </th>

@@ -198,6 +198,9 @@
                     <a href="../Hall/DispHall.php" style="text-decoration:none"><i class="fas fa-building"></i> Hall </a>
                </li>
                <li>
+                    <a href="../Dining/Displayorder.php" style="text-decoration:none"><i class="fas fa-building"></i> Dining </a>
+               </li>
+               <li>
                     <a href="../Student/DispStudent.php" style="text-decoration:none"><i class="fas fa-book-reader"></i> Students</a>
                </li>
                <li>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 03, 2023 at 12:36 PM
+-- Generation Time: Apr 04, 2023 at 01:19 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -92,7 +92,11 @@ CREATE TABLE `floor` (
 INSERT INTO `floor` (`Floor_Number`, `Block`, `Num_of_Kitchen`, `Num_of_Room`, `Num_of_Washroom`) VALUES
 ('1/A', 'A', 4, 100, 20),
 ('2/B', 'B', 6, 150, 30),
-('1/B', 'B', 43, 321, 1);
+('1/B', 'B', 43, 321, 1),
+('4', 'A', 2, 40, 3),
+('3', 'B', 3, 20, 5),
+('1', 'A', 3, 22, 2),
+('6', 'B', 7, 43, 2);
 
 -- --------------------------------------------------------
 
@@ -116,7 +120,19 @@ INSERT INTO `hall` (`H_ID`, `H_Name`, `T_Seat`, `A_Seat`, `N_Student`) VALUES
 (1, 'Mir Mosharraf Hossain Hall', 800, 50, 750),
 (2, 'Shaheed Salam-Barkat Hall', 400, 0, 400),
 (3, 'Bangabandhu Sheikh Mujibur Rahman Hall', 500, 10, 490),
-(4, 'Al Beruni Hall', 400, 50, 350);
+(4, 'Al Beruni Hall', 400, 50, 350),
+(5, 'Shaheed Rafiq-Jabbar Hall', 500, 0, 500),
+(6, 'A F M Kamaluddin Hall', 400, 100, 300),
+(7, 'Mowlana Bhashani Hall', 600, 200, 400),
+(8, 'Bishwakabi Rabindranath Tagore Hall', 400, 0, 400),
+(9, 'Jahanara Imam Hall', 200, 50, 150),
+(10, 'Nawab Faizunnesa Hall', 100, 20, 80),
+(11, 'Pritilata Hall', 300, 60, 240),
+(12, 'Fazilatunnesa Hall', 150, 50, 100),
+(13, 'Begum Khaleda Zia Hall', 400, 100, 300),
+(14, 'Sheikh Hasina Hall', 500, 100, 400),
+(15, 'Bangamata Begum Fazilatunnessa Mujib Hall', 600, 100, 500),
+(16, 'Begum Sufia Kamal Hall', 400, 20, 380);
 
 -- --------------------------------------------------------
 
@@ -178,7 +194,9 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`order_id`, `name`, `id`, `type`, `quantity`) VALUES
-(1, 'Md. Shakil Hossain ', 2023, 'breakfast', 1);
+(1, 'Md. Shakil Hossain ', 2023, 'breakfast', 1),
+(5, 'Zamshed Ikbal', 1997, 'dinner', 2),
+(6, 'Mahbubur Rahman', 2024, 'launch', 1);
 
 -- --------------------------------------------------------
 
@@ -221,7 +239,14 @@ CREATE TABLE `room` (
 
 INSERT INTO `room` (`Room_Number`, `Num_of_Table`, `Num_of_Bed`, `Floor_Number`) VALUES
 (101, 4, 2, '4/A'),
-(102, 3, 2, '4/B');
+(102, 3, 2, '4/B'),
+(103, 2, 4, '1/B'),
+(104, 4, 3, '2/A'),
+(105, 4, 4, '5/B'),
+(504, 3, 2, '5/B'),
+(234, 4, 4, '2/A'),
+(320, 1, 4, '3/A'),
+(410, 3, 4, '4/B');
 
 -- --------------------------------------------------------
 
@@ -242,7 +267,9 @@ CREATE TABLE `staff` (
 --
 
 INSERT INTO `staff` (`S_ID`, `Name`, `Address`, `Email`, `Designation`) VALUES
-(4001, 'motiur', 'Gerua, Savar', 'motiur.staff@juniv.edu', 'Office Assistant');
+(4001, 'motiur', 'Gerua, Savar', 'motiur.staff@juniv.edu', 'Office Assistant'),
+(102, 'Shohid', 'Ju', 'example@gmail.com', 'Staff'),
+(291, 'Shohel Rana', 'JU, Savar, Dhaka', 'sohel@gmail.com', 'Officer');
 
 -- --------------------------------------------------------
 
@@ -255,6 +282,7 @@ CREATE TABLE `student` (
   `Name` varchar(40) NOT NULL,
   `Department` varchar(30) NOT NULL,
   `Session` varchar(20) NOT NULL,
+  `hall` varchar(250) NOT NULL,
   `Room_Number` int(10) NOT NULL,
   `Floor_Number` varchar(10) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
@@ -263,8 +291,13 @@ CREATE TABLE `student` (
 -- Dumping data for table `student`
 --
 
-INSERT INTO `student` (`Stu_id`, `Name`, `Department`, `Session`, `Room_Number`, `Floor_Number`) VALUES
-(102, 'Monir', 'CSE', '2018-2019', 112, '3/C');
+INSERT INTO `student` (`Stu_id`, `Name`, `Department`, `Session`, `hall`, `Room_Number`, `Floor_Number`) VALUES
+(2023, 'Md. Shakil Hossain', 'IIT', '2018-2019', 'RTH', 406, '4/B'),
+(1234, 'Md. Solaiman Ali', 'IR', '2019-2020', 'RTH', 501, '5/B'),
+(2024, 'Mahbubur Rahman', 'IIT', '2018-2019', 'RTH', 104, '1/B'),
+(2022, 'Ashfaqur Rahman Tokee', 'IIT', '2018-2019', 'SRJ', 234, '2/A'),
+(2026, 'Mahfuz', 'CSE', '2018-2019', 'AFH', 309, '3/A'),
+(2028, 'Nahidul Islam', 'IIT', '2018-2019', 'RTH', 104, '1/B');
 
 --
 -- Indexes for dumped tables
@@ -314,7 +347,7 @@ ALTER TABLE `staff`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `order_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `order_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

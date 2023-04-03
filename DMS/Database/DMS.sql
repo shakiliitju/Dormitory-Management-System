@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1:3306
--- Generation Time: Mar 13, 2022 at 06:59 AM
--- Server version: 5.7.31
--- PHP Version: 7.3.21
+-- Host: 127.0.0.1
+-- Generation Time: Apr 03, 2023 at 12:36 PM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `DMS`
+-- Database: `dms`
 --
 
 -- --------------------------------------------------------
@@ -27,8 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `facilities_problem`
 --
 
-DROP TABLE IF EXISTS `facilities_problem`;
-CREATE TABLE IF NOT EXISTS `facilities_problem` (
+CREATE TABLE `facilities_problem` (
   `Room_Number` int(5) NOT NULL,
   `Vacant_Seat` int(3) NOT NULL,
   `Damaged_Fan` int(3) NOT NULL,
@@ -49,8 +48,7 @@ INSERT INTO `facilities_problem` (`Room_Number`, `Vacant_Seat`, `Damaged_Fan`, `
 -- Table structure for table `facility_problem`
 --
 
-DROP TABLE IF EXISTS `facility_problem`;
-CREATE TABLE IF NOT EXISTS `facility_problem` (
+CREATE TABLE `facility_problem` (
   `Room_Number` int(11) NOT NULL,
   `Damaged_Fan_Un` int(11) NOT NULL,
   `Damaged_Fan_Pro` int(11) NOT NULL,
@@ -61,8 +59,7 @@ CREATE TABLE IF NOT EXISTS `facility_problem` (
   `Modified_Date` date NOT NULL,
   `total_uv` int(20) DEFAULT NULL,
   `total_pro` int(20) DEFAULT NULL,
-  `total_sol` int(20) DEFAULT NULL,
-  PRIMARY KEY (`Room_Number`)
+  `total_sol` int(20) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
@@ -80,14 +77,12 @@ INSERT INTO `facility_problem` (`Room_Number`, `Damaged_Fan_Un`, `Damaged_Fan_Pr
 -- Table structure for table `floor`
 --
 
-DROP TABLE IF EXISTS `floor`;
-CREATE TABLE IF NOT EXISTS `floor` (
+CREATE TABLE `floor` (
   `Floor_Number` varchar(10) NOT NULL,
   `Block` varchar(10) NOT NULL,
   `Num_of_Kitchen` int(5) NOT NULL,
   `Num_of_Room` int(5) NOT NULL,
-  `Num_of_Washroom` int(5) NOT NULL,
-  PRIMARY KEY (`Floor_Number`)
+  `Num_of_Washroom` int(5) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
@@ -102,11 +97,53 @@ INSERT INTO `floor` (`Floor_Number`, `Block`, `Num_of_Kitchen`, `Num_of_Room`, `
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `hall`
+--
+
+CREATE TABLE `hall` (
+  `H_ID` int(11) NOT NULL,
+  `H_Name` varchar(250) NOT NULL,
+  `T_Seat` int(11) NOT NULL,
+  `A_Seat` int(11) NOT NULL,
+  `N_Student` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `hall`
+--
+
+INSERT INTO `hall` (`H_ID`, `H_Name`, `T_Seat`, `A_Seat`, `N_Student`) VALUES
+(1, 'Mir Mosharraf Hossain Hall', 800, 50, 750),
+(2, 'Shaheed Salam-Barkat Hall', 400, 0, 400),
+(3, 'Bangabandhu Sheikh Mujibur Rahman Hall', 500, 10, 490),
+(4, 'Al Beruni Hall', 400, 50, 350);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `login`
+--
+
+CREATE TABLE `login` (
+  `id` int(11) NOT NULL,
+  `username` varchar(250) NOT NULL,
+  `password` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `login`
+--
+
+INSERT INTO `login` (`id`, `username`, `password`) VALUES
+(1, 'admin', 'admin');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `message_table`
 --
 
-DROP TABLE IF EXISTS `message_table`;
-CREATE TABLE IF NOT EXISTS `message_table` (
+CREATE TABLE `message_table` (
   `Stu_ID` int(20) DEFAULT NULL,
   `Name` varchar(20) NOT NULL,
   `Room_Num` varchar(20) DEFAULT NULL,
@@ -125,18 +162,37 @@ INSERT INTO `message_table` (`Stu_ID`, `Name`, `Room_Num`, `Messages`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `orders`
+--
+
+CREATE TABLE `orders` (
+  `order_id` int(11) NOT NULL,
+  `name` varchar(250) NOT NULL,
+  `id` int(11) NOT NULL,
+  `type` varchar(250) NOT NULL,
+  `quantity` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `orders`
+--
+
+INSERT INTO `orders` (`order_id`, `name`, `id`, `type`, `quantity`) VALUES
+(1, 'Md. Shakil Hossain ', 2023, 'breakfast', 1);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `provost`
 --
 
-DROP TABLE IF EXISTS `provost`;
-CREATE TABLE IF NOT EXISTS `provost` (
+CREATE TABLE `provost` (
   `P_ID` int(10) NOT NULL,
   `Phone` varchar(15) NOT NULL,
   `Name` varchar(30) NOT NULL,
   `Address` varchar(50) NOT NULL,
   `Email` varchar(30) NOT NULL,
-  `Designation` varchar(30) NOT NULL,
-  PRIMARY KEY (`P_ID`)
+  `Designation` varchar(30) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
@@ -152,13 +208,11 @@ INSERT INTO `provost` (`P_ID`, `Phone`, `Name`, `Address`, `Email`, `Designation
 -- Table structure for table `room`
 --
 
-DROP TABLE IF EXISTS `room`;
-CREATE TABLE IF NOT EXISTS `room` (
+CREATE TABLE `room` (
   `Room_Number` int(20) NOT NULL,
   `Num_of_Table` int(15) NOT NULL,
   `Num_of_Bed` int(5) NOT NULL,
-  `Floor_Number` varchar(30) NOT NULL,
-  PRIMARY KEY (`Room_Number`)
+  `Floor_Number` varchar(30) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
@@ -175,14 +229,12 @@ INSERT INTO `room` (`Room_Number`, `Num_of_Table`, `Num_of_Bed`, `Floor_Number`)
 -- Table structure for table `staff`
 --
 
-DROP TABLE IF EXISTS `staff`;
-CREATE TABLE IF NOT EXISTS `staff` (
+CREATE TABLE `staff` (
   `S_ID` int(10) NOT NULL,
   `Name` varchar(40) NOT NULL,
   `Address` varchar(50) NOT NULL,
   `Email` varchar(30) NOT NULL,
-  `Designation` varchar(30) NOT NULL,
-  PRIMARY KEY (`S_ID`)
+  `Designation` varchar(30) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
@@ -198,8 +250,7 @@ INSERT INTO `staff` (`S_ID`, `Name`, `Address`, `Email`, `Designation`) VALUES
 -- Table structure for table `student`
 --
 
-DROP TABLE IF EXISTS `student`;
-CREATE TABLE IF NOT EXISTS `student` (
+CREATE TABLE `student` (
   `Stu_id` int(10) NOT NULL,
   `Name` varchar(40) NOT NULL,
   `Department` varchar(30) NOT NULL,
@@ -214,6 +265,56 @@ CREATE TABLE IF NOT EXISTS `student` (
 
 INSERT INTO `student` (`Stu_id`, `Name`, `Department`, `Session`, `Room_Number`, `Floor_Number`) VALUES
 (102, 'Monir', 'CSE', '2018-2019', 112, '3/C');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `facility_problem`
+--
+ALTER TABLE `facility_problem`
+  ADD PRIMARY KEY (`Room_Number`);
+
+--
+-- Indexes for table `floor`
+--
+ALTER TABLE `floor`
+  ADD PRIMARY KEY (`Floor_Number`);
+
+--
+-- Indexes for table `orders`
+--
+ALTER TABLE `orders`
+  ADD PRIMARY KEY (`order_id`);
+
+--
+-- Indexes for table `provost`
+--
+ALTER TABLE `provost`
+  ADD PRIMARY KEY (`P_ID`);
+
+--
+-- Indexes for table `room`
+--
+ALTER TABLE `room`
+  ADD PRIMARY KEY (`Room_Number`);
+
+--
+-- Indexes for table `staff`
+--
+ALTER TABLE `staff`
+  ADD PRIMARY KEY (`S_ID`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `orders`
+--
+ALTER TABLE `orders`
+  MODIFY `order_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

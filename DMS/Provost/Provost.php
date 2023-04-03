@@ -7,7 +7,7 @@
 	$Designation = $_POST['Designation'];
 
 	// Database connection
-	$conn = new mysqli('localhost','root','','final_dbms');
+	$conn = new mysqli('localhost','root','','DMS');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);

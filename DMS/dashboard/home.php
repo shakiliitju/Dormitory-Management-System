@@ -236,7 +236,7 @@
                          transition: 1s;
                     }
                </style>
-               <a style="text-decoration: none;" href="../home.php">
+               <a style="text-decoration: none;" href="../index.php">
                     <div class="logout">
                          Log Out
 

@@ -97,7 +97,7 @@
             <a href="#provost" style=" text-decoration:none; ">Notice</a>
             <a href="#hall" style=" text-decoration:none; ">Hall</a>
             <a href="#Gallery" style=" text-decoration:none; ">Gallery</a>
-            <a href="#Dining" style=" text-decoration:none; ">Dining</a>
+            <a href="#dining" style=" text-decoration:none; ">Dining</a>
             <a href="#contact" style=" text-decoration:none; ">contact</a>
             <button id="admin" style="    margin-left: 7px;height: 40px;width: 80px"><a href="login.php" style=" text-decoration:none; text-align:centre" id="link1">Login</a></button>
         </nav>
@@ -280,79 +280,79 @@
             </div>
 
             <div class="box">
-                <img src="../images/h2.jpg" alt="">
+                <img src="images/h2.jpg" alt="">
                 <h3>Shaheed Salam-Barkat Hall</h3>
             </div>
 
             <div class="box">
-                <img src="../images/h3.jpg" alt="">
+                <img src="images/h3.jpg" alt="">
                 <h3>Bangabandhu Sheikh Mujibur Rahman Hall</h3>
             </div>
 
             <div class="box">
-                <img src="/images/h4.jpg" alt="">
+                <img src="images/h4.jpg" alt="">
                 <h3>Al Beruni Hall</h3>
             </div>
 
             <div class="box">
-                <img src="../images/h5.jpg" alt="">
-                <h3></h3>
+                <img src="images/h5.jpg" alt="">
+                <h3>Shaheed Rafiq-Jabbar Hall</h3>
             </div>
 
             <div class="box">
-                <img src="../images/h6.jpg" alt="">
-                <h3></h3>
+                <img src="images/h6.jpg" alt="">
+                <h3>A F M Kamaluddin Hall</h3>
             </div>
 
 
             <div class="box">
-                <img src="../images/h7.jpg" alt="">
-                <h3></h3>
+                <img src="images/h7.jpg" alt="">
+                <h3>Mowlana Bhashani Hall</h3>
             </div>
 
             <div class="box">
-                <img src="../images/h8.jpg" alt="">
-                <h3></h3>
+                <img src="images/h8.jpg" alt="">
+                <h3>Bishwakabi Rabindranath Tagore Hall</h3>
             </div>
 
             <div class="box">
-                <img src="../images/h9.jpg" alt="">
-                <h3></h3>
+                <img src="images/h9.jpg" alt="">
+                <h3>Jahanara Imam Hall</h3>
             </div>
 
             <div class="box">
-                <img src="../images/h10.jpg" alt="">
-                <h3></h3>
+                <img src="images/h10.jpg" alt="">
+                <h3>Nawab Faizunnesa Hall</h3>
             </div>
 
             <div class="box">
-                <img src="../images/h11.jpg" alt="">
-                <h3></h3>
+                <img src="images/h11.jpg" alt="">
+                <h3>Pritilata Hall</h3>
             </div>
 
             <div class="box">
-                <img src="../images/h12.jpg" alt="">
-                <h3></h3>
+                <img src="images/h12.jpg" alt="">
+                <h3>Fazilatunnesa Hall</h3>
             </div>
 
             <div class="box">
-                <img src="../images/h13.jpg" alt="">
-                <h3></h3>
+                <img src="images/h13.jpg" alt="">
+                <h3>Begum Khaleda Zia Hall</h3>
             </div>
 
             <div class="box">
-                <img src="../images/h14.jpg" alt="">
-                <h3></h3>
+                <img src="images/h14.jpg" alt="">
+                <h3>Sheikh Hasina Hall</h3>
             </div>
 
             <div class="box">
-                <img src="../images/h15.jpg" alt="">
-                <h3></h3>
+                <img src="images/h15.jpg" alt="">
+                <h3>Bangamata Begum Fazilatunnessa Mujib Hall</h3>
             </div>
 
             <div class="box">
-                <img src="../images/h16.jpg" alt="">
-                <h3></h3>
+                <img src="images/h16.jpg" alt="">
+                <h3>Begum Sufia Kamal Hall</h3>
             </div>
 
         </div>
@@ -474,6 +474,133 @@
         </div>
     </div>
     <!-- Gallery End -->
+
+    <!-- Dining start -->
+    </section>
+    <div class="container-fluid pt-5 pb-3" id="dining" style="margin-top:20px">
+        <h1 class=" heading">Dining</h1>
+        <div class="row">
+            <div class="col-12 text-center mb-2">
+                <ul class="list-inline mb-4" id="portfolio-flters">
+                    <a href="Dining/Order_form.html">
+                        <li class="btn btn-sm btn-outline-info m-1 active" data-filter="*" style=" text-decoration:none; "> Coupon</li>
+                    </a>
+                    <li class="btn btn-sm btn-outline-info m-1" data-filter=".first"><a href="#breakfast" style=" text-decoration:none; "> Breakfast </a>
+                    </li>
+                    <li class="btn btn-sm btn-outline-info m-1" data-filter=".second"><a href="#launch" style=" text-decoration:none; ">Launch</li>
+                    <li class="btn btn-sm btn-outline-info m-1" data-filter=".third"><a href="#dinner" style=" text-decoration:none; ">Dinner</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container" id="cont">
+            <div class="position-relative d-flex align-items-center justify-content-center" id="sec_cond1">
+                <div class="row portfolio-container" id="breakfast">
+                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                        <div class="position-relative overflow-hidden mb-2">
+                            <img class="img-fluid rounded w-100" src="images/ruti.jpg" alt="">
+                            <h2 style="color:blue">Ruti Per piece : 10 BDT</h2>
+                            <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                                <a href="images/ruti.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" id="breakfast">
+                        <div class="position-relative overflow-hidden mb-2">
+                            <img class="img-fluid rounded w-100" src="images/vaji.jpg" alt="">
+                            <h2 style="color:blue">Vaji: 20 BDT</h2>
+                            <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                                <a href="images/vaji.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" id="breakfast">
+                        <div class="position-relative overflow-hidden mb-2">
+                            <img class="img-fluid rounded w-100" src="images/dall.jpg" alt="">
+                            <h2 style="color:blue">Dall: 15 BDT</h2>
+                            <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                                <a href="images/dall.jpg" data-lightbox="portfolio">
+
+                                    <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" id="launch">
+                        <div class="position-relative overflow-hidden mb-2">
+                            <img class="img-fluid rounded w-100" src="images/rice.jpg" alt="">
+                            <h2 style="color:blue">Rice: 20 BDT</h2>
+                            <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                                <a href="images/rice.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item first" id="launch">
+                        <div class="position-relative overflow-hidden mb-2">
+                            <img class="img-fluid rounded w-100" src="images/fish.jpg" alt="">
+                            <h2 style="color:blue">Fish: 50 BDT</h2>
+
+                            <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                                <a href="images/fish.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" id="launch">
+                        <div class="position-relative overflow-hidden mb-2">
+                            <img class="img-fluid rounded w-100" src="images/murgi.jpg" alt="">
+                            <h2 style="color:blue">Chicken: 50 BDT</h2>
+                            <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                                <a href="images/murgi.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item second" id="dinner">
+                        <div class="position-relative overflow-hidden mb-2">
+                            <img class="img-fluid rounded w-100" src="images/nan.avif" alt="">
+                            <h2 style="color:blue">Nan: 30 BDT</h2>
+                            <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                                <a href="images/canteen1.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" id="dinner">
+                        <div class="position-relative overflow-hidden mb-2">
+                            <img class="img-fluid rounded w-100" src="images/grill.jpg" alt="">
+                            <h2 style="color:blue">Checken Grill Full: 300 BDT</h2>
+                            <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                                <a href="images/canteen2.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 portfolio-item third" id="dinner">
+                        <div class="position-relative overflow-hidden mb-2">
+                            <img class="img-fluid rounded w-100" src="images/egg.jpg" alt="">
+                            <h2 style="color:blue">Egg: 20 BDT</h2>
+                            <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                                <a href="images/canteen3.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dining End -->
 
 
     <!-- Contact Start -->

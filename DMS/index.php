@@ -95,9 +95,9 @@
         <nav class="navbar">
             <a href="#about" style=" text-decoration:none; ">About</a>
             <a href="#provost" style=" text-decoration:none; ">Notice</a>
-            <a href="Student/signup.html" style=" text-decoration:none; ">Student</a>
+            <a href="#hall" style=" text-decoration:none; ">Hall</a>
             <a href="#Gallery" style=" text-decoration:none; ">Gallery</a>
-            <a href="#Gallery" style=" text-decoration:none; ">Dining</a>
+            <a href="#Dining" style=" text-decoration:none; ">Dining</a>
             <a href="#contact" style=" text-decoration:none; ">contact</a>
             <button id="admin" style="    margin-left: 7px;height: 40px;width: 80px"><a href="login.php" style=" text-decoration:none; text-align:centre" id="link1">Login</a></button>
         </nav>
@@ -177,7 +177,7 @@
                 <div class="carousel-caption">
                     <!--  <h2 class="display-1">This is my second slider</h2> -->
                 </div>
-                <img src="images/slider2.jpg" height="600px" width="100%" alt="">
+                <img src="images/h1.jpg" height="600px" width="100%" alt="">
             </div>
             <!-- 3rd slider -->
             <div class="carousel-item">
@@ -185,7 +185,7 @@
                 <div class="carousel-caption">
                     <!--   <h2 class="display-1">This is my third slider</h2> -->
                 </div>
-                <img src="images/slider3.jpg" height="600px" width="100%" alt="">
+                <img src="images/h9.jpg" height="600px" width="100%" alt="">
             </div>
             <!-- 4th slider -->
             <div class="carousel-item">
@@ -193,7 +193,7 @@
                 <div class="carousel-caption">
                     <!--    <h2 class="display-1">This is my third slider</h2> -->
                 </div>
-                <img src="images/slider4.jpg" height="600px" width="100%" alt="">
+                <img src="images/2.jpg" height="600px" width="100%" alt="">
             </div>
         </div>
 
@@ -241,6 +241,8 @@
         </div>
     </section>
     <!-- about section end -->
+
+
     <!-- provost  start -->
     <section class="provost" id="provost">
 
@@ -260,23 +262,107 @@
                     <br><br>Best regards,
                     <br><br> University Hall Office Staff
                 </h3>
-                <!-- <img src="images/provost.jpg" alt="">
-        <h1>Dr. Ali Azam Talukder</h1>
-        <h4>Professor</h4>
-        <h4>Department of Microbiology</h4>
-        <h5>Jahangirnagar University, Savar, Dhaka-1342, Bangladesh.</h5>
-        <div class="share">
-            <h5>Email: aat@juniv.edu</h5>
-            <h5>Office Phone: 1324</h5>
-            <h5>Home Phone: 01715054872</h5> -->
             </div>
         </div>
+    </section>
 
+    <!-- doctors section starts  -->
+
+    <section class="hall" id="hall">
+
+        <h1 class="heading"> our <span>Hall</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/h1.jpg" alt="">
+                <h3>Mir Mosharraf Hossain Hall</h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/h2.jpg" alt="">
+                <h3>Shaheed Salam-Barkat Hall</h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/h3.jpg" alt="">
+                <h3>Bangabandhu Sheikh Mujibur Rahman Hall</h3>
+            </div>
+
+            <div class="box">
+                <img src="/images/h4.jpg" alt="">
+                <h3>Al Beruni Hall</h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/h5.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/h6.jpg" alt="">
+                <h3></h3>
+            </div>
+
+
+            <div class="box">
+                <img src="../images/h7.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/h8.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/h9.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/h10.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/h11.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/h12.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/h13.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/h14.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/h15.jpg" alt="">
+                <h3></h3>
+            </div>
+
+            <div class="box">
+                <img src="../images/h16.jpg" alt="">
+                <h3></h3>
+            </div>
 
         </div>
 
-        <!-- Galary section start-->
     </section>
+
+    <!-- doctors section ends -->
+
+
+    <!-- Galary section start-->
     <div class="container-fluid pt-5 pb-3" id="Gallery" style="margin-top:20px">
         <h1 class=" heading">Galary</h1>
         <div class="row">
@@ -419,7 +505,8 @@
                                 <h4>Call:</h4>
                                 <p>02224491052</p>
                             </div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.1760830597646!2d90.26664878884148!3d23.879370153102187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e99900000001%3A0x2debf98e950c72ca!2sJahangirnagar%20University!5e0!3m2!1sen!2sbd!4v1680456384141!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                        </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.1760830597646!2d90.26664878884148!3d23.879370153102187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e99900000001%3A0x2debf98e950c72ca!2sJahangirnagar%20University!5e0!3m2!1sen!2sbd!4v1680456384141!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
 
                     </div>
 

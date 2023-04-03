@@ -5,7 +5,7 @@
 	$Session = $_POST['Session'];
 	$Room_Number = $_POST['Room_Number'];
 	$Floor_Number = $_POST['Floor_Number'];
-	$conn = new mysqli('localhost','root','','final_dbms');
+	$conn = new mysqli('localhost','root','','DMS');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);

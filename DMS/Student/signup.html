@@ -1,83 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Registration Page</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="row col-md-6 col-md-offset-3">
-        <div class="panel panel-primary">
-          <div class="panel-heading text-center">
-            <h1>Student Registration</h1>
-          </div>
-          <div class="panel-body">
-            <form action="student.php" method="post" >
-              <div class="form-group">
-                <label for="Stu_id">Student ID</label>
-                <input
-                  type="number"
-                  class="form-control"
-                  id="Stu_id"
-                  name="Stu_id"
-                />
-              </div>
-              <div class="form-group">
-                <label for="Name">Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="Name"
-                  name="Name"
-                />
-              </div>
-              <div class="form-group">
-                <label for="Department">Department</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="Department"
-                  name="Department"
-                />
-              </div>
-              <div class="form-group">
-                <label for="Session">Session</label>
-                <input
-                  type="Year"
-                  class="form-control"
-                  id="Session"
-                  name="Session"
-                />
-              </div>
-              <div class="form-group">
-                <label for="Room_Number">Room Number</label>
-                <input
-                  type="number"
-                  class="form-control"
-                  id="Room_Number"
-                  name="Room_Number"
-                />
-              </div>
-              <div class="form-group">
-                <label for="Floor_Number">Floor Number</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="Floor_Number"
-                  name="Floor_Number"
-                />
-              </div>
-              <input type="submit" class="btn btn-primary" value="SUBMIT"  />
-              <!-- <button> <a href="DispStudent.php" class="btn btn-success"><b>Submit</b></a></button> -->
-              <button><a href="..home.php" class="btn btn-primary"><b>Back</b></a></button>
-            </form>
-          </div>
-          <div class="panel-footer text-right">
-            <small>&copy; Dormitory Management System</small>
-          </div>
+
+<head>
+  <title>Registration Page</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row col-md-6 col-md-offset-3">
+      <div class="panel panel-primary">
+        <div class="panel-heading text-center">
+          <h1>Student Info</h1>
+        </div>
+        <div class="panel-body">
+          <form action="student2.php" method="post">
+            <div class="form-group">
+              <label for="Stu_id">Student ID</label>
+              <input type="number" class="form-control" id="Stu_id" name="Stu_id" required />
+            </div>
+            <div class="form-group">
+              <label for="Name">Name</label>
+              <input type="text" class="form-control" id="Name" name="Name" required />
+            </div>
+            <div class="form-group">
+              <label for="Department">Department</label>
+              <input type="text" class="form-control" id="Department" name="Department" required />
+            </div>
+            <div class="form-group">
+              <label for="Session">Session</label>
+              <input type="Year" class="form-control" id="Session" name="Session" required />
+            </div>
+            <div class="form-group">
+              <label for="hall">Hall</label>
+            </div>
+            <div class="form-group">
+              <select id="hall" name="hall" class="form-control">
+                <option value="SRJ">Shaheed Rafiq-Jabbar Hall</option>
+                <option value="SKH">Begum Sufia Kamal Hall</option>
+                <option value="AFH">A F M Kamaluddin Hall</option>
+                <option value="SHH">Sheikh Hasina Hall</option>
+                <option value="JIH">Jahanara Imam Hall</option>
+                <option value="RTH">Bishwakabi Rabindranath Tagore Hall</option>
+                <option value="BKH">Begum Khaleda Zia Hall</option>
+                <option value="FH">Fazilatunnesa Hall</option>
+                <option value="NFH">Nawab Faizunnesa Hall</option>
+                <option value="PH">Pritilata Hall</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="Room_Number">Room Number</label>
+              <input type="number" class="form-control" id="Room_Number" name="Room_Number" required />
+            </div>
+            <div class="form-group">
+              <label for="Floor_Number">Floor Number</label>
+              <input type="text" class="form-control" id="Floor_Number" name="Floor_Number" required />
+            </div>
+            <input type="submit" class="btn btn-primary" value="SUBMIT" />
+            <!-- <button> <a href="DispStudent.php" class="btn btn-success"><b>Submit</b></a></button> -->
+          </form>
+        </div>
+        <div class="panel-footer text-right">
+          <button><a href="../index.php" class="btn btn-primary"><b>Back</b></a></button>
+          <small>&copy; Dormitory Management System</small>
         </div>
       </div>
     </div>
-</div>
-  </body>
+  </div>
+  </div>
+</body>
+
 </html>

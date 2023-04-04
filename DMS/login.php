@@ -53,7 +53,8 @@
 
             </form>
         </div>
-
+        <h1 style="color: blue; ">As A Student</h1>
+        <button type="submit" style="width: 15%; height:30px" id="btn" name="login" default><a href="../DMS/Student/signup.html">Signup</button>
     </center>
 
 </body>
